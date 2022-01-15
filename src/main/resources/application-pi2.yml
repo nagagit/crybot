@@ -1,0 +1,122 @@
+telegram:
+  bot:
+    binance:
+      SOLUSDT:
+        api:
+          token: '**********'
+        chat:
+          id: '**********'
+      ETHUSDT:
+        api:
+          token: '**********'
+        chat:
+          id: '**********'
+      DOTUSDT:
+        chat:
+          id: '**********'
+        api:
+          token: '**********'
+      BTCUSDT:
+        chat:
+          id: '**********'
+        api:
+          token: '**********'
+      ADAUSDT:
+        chat:
+          id: '**********'
+        api:
+          token: '**********'
+      ALTCOIN:
+        chat:
+          id: '**********'
+        api:
+          token: '**********'
+hostIP: 103.156.50.146
+trading:
+  bot:
+    binance:
+      api:
+        key: '**********'
+      secret:
+        key: '**********'
+    shortTermMA: '50'
+    strategy: SMA
+    longTermMA: '200'
+    #scheduledTickers: 'TFUELUSDT,XRPUSDT,XLMUSDT,ALGOUSDT,MATICUSDT,MANAUSDT,SANDUSDT,THETAUSDT,CAKEUSDT,UNIUSDT,LINKUSDT,FTMUSDT'
+    cron: 0 1 1/1 * * ?
+    SOLUSDT:
+      cron: '0 5 1/1 * * ?'
+      percentAllocate: 3
+    ADAUSDT:
+      cron: '0 10 1/1 * * ?'
+      percentAllocate: 6
+    DOTUSDT:
+      cron: '0 15 1/1 * * ?'
+      percentAllocate: 3
+    ETHUSDT:
+      cron: '0 20 1/1 * * ?'
+      percentAllocate: 3
+    BTCUSDT:
+      cron: '0 25 1/1 * * ?'
+      percentAllocate: 3
+    LUNAUSDT:
+      cron: '0 30 1/1 * * ?'
+      percentAllocate: 4
+    VETUSDT:
+      cron: '0 35 1/1 * * ?'
+      percentAllocate: 7
+    DOGEUSDT:
+      cron: '0 40 1/1 * * ?'
+      percentAllocate: 5
+    SHIBUSDT:
+      cron: '0 45 1/1 * * ?'
+      percentAllocate: 6
+    ENJUSDT:
+      cron: '0 50 1/1 * * ?'
+      percentAllocate: 5
+    LTCUSDT:
+      cron: '0 55 1/1 * * ?'
+      percentAllocate: 4
+    BNBUSDT:
+      cron: '0 1 1/1 * * ?'
+      percentAllocate: 2
+    TFUELUSDT:
+      cron: '0 6 2/1 * * ?'
+      percentAllocate: 5
+    ALGOUSDT:
+      cron: '0 11 2/1 * * ?'
+      percentAllocate: 5
+    XLMUSDT:
+      cron: '0 16 2/1 * * ?'
+      percentAllocate: 5
+    MATICUSDT:
+      cron: '0 21 2/1 * * ?'
+      percentAllocate: 3
+    XRPUSDT:
+      cron: '0 26 2/1 * * ?'
+      percentAllocate: 5
+    MANAUSDT:
+      cron: '0 31 2/1 * * ?'
+      percentAllocate: 3
+    SANDUSDT:
+      cron: '0 36 2/1 * * ?'
+      percentAllocate: 3
+    THETAUSDT:
+      cron: '0 41 2/1 * * ?'
+      percentAllocate: 3
+    CAKEUSDT:
+      cron: '0 46 2/1 * * ?'
+      percentAllocate: 4
+    UNIUSDT:
+      cron: '0 51 2/1 * * ?'
+      percentAllocate: 2
+    LINKUSDT:
+      cron: '0 56 2/1 * * ?'
+      percentAllocate: 5
+    FTMUSDT:
+      cron: '0 2 2/1 * * ?'
+      percentAllocate: 6
+server:
+  port: '17071'
+developmentMode: 'false'
+versionValue: '@project.version@'
